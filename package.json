@@ -17,11 +17,14 @@
   "dependencies": {
     "@strapi/plugin-cloud": "5.50.0",
     "@strapi/plugin-users-permissions": "5.50.0",
+    "@strapi/provider-email-nodemailer": "^5.50.0",
+    "@strapi/provider-upload-aws-s3": "^5.50.0",
     "@strapi/strapi": "5.50.0",
     "pg": "8.20.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
+    "strapi-plugin-meilisearch": "^0.16.5",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
@@ -31,7 +34,7 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": ">=20.0.0 <=26.x.x",
+    "node": ">=24 <=26.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
